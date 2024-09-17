@@ -88,7 +88,7 @@ submitBtn.addEventListener('click', (e) => {
                                                     <p>Has it been read?: <b>${book.read}</b></p>
                                                     <div class="btn-section">
                                                         <button onclick="deleteBook(${book.id})" class="btn-del"><i id="close-btn" class="fa-solid fa-xmark"></i></button>
-                                                        <button onclick="updateReadStatus(${book.id})" class="btn-secondary">Update Read</button>
+                                                        <button onclick="updateReadStatus(${book.id})" class="btn-secondary">Toggle Read Value</button>
                                                         <button onclick="showDetails(${book.id})" class="btn-secondary">See Details</button>
                                                     </div>
                                                   </div>`)

@@ -19,11 +19,24 @@ h1 {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
 #title-bar {
     height: 75px;
     background-color: #ebebeb;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
